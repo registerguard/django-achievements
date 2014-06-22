@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+    <object pk="6" model="achievements.town">
+        <field type="CharField" name="name">Coos Bay</field>
+        <field type="DecimalField" name="lat"><None></None></field>
+        <field type="DecimalField" name="lng"><None></None></field>
+    </object>
+    <object pk="1" model="achievements.town">
+        <field type="CharField" name="name">Creswell</field>
+        <field type="DecimalField" name="lat"><None></None></field>
+        <field type="DecimalField" name="lng"><None></None></field>
+    </object>
+    <object pk="9" model="achievements.town">
+        <field type="CharField" name="name">Drain</field>
+        <field type="DecimalField" name="lat"><None></None></field>
+        <field type="DecimalField" name="lng"><None></None></field>
+    </object>
+    <object pk="3" model="achievements.town">
+        <field type="CharField" name="name">Eugene</field>
+        <field type="DecimalField" name="lat"><None></None></field>
+        <field type="DecimalField" name="lng"><None></None></field>
+    </object>
+    <object pk="2" model="achievements.town">
+        <field type="CharField" name="name">Junction City</field>
+        <field type="DecimalField" name="lat"><None></None></field>
+        <field type="DecimalField" name="lng"><None></None></field>
+    </object>
+    <object pk="4" model="achievements.town">
+        <field type="CharField" name="name">Pleasant Hill</field>
+        <field type="DecimalField" name="lat"><None></None></field>
+        <field type="DecimalField" name="lng"><None></None></field>
+    </object>
+    <object pk="8" model="achievements.town">
+        <field type="CharField" name="name">Reedsport</field>
+        <field type="DecimalField" name="lat"><None></None></field>
+        <field type="DecimalField" name="lng"><None></None></field>
+    </object>
+    <object pk="5" model="achievements.town">
+        <field type="CharField" name="name">Springfield</field>
+        <field type="DecimalField" name="lat"><None></None></field>
+        <field type="DecimalField" name="lng"><None></None></field>
+    </object>
+    <object pk="7" model="achievements.town">
+        <field type="CharField" name="name">Sutherlin</field>
+        <field type="DecimalField" name="lat"><None></None></field>
+        <field type="DecimalField" name="lng"><None></None></field>
+    </object>
+    <object pk="36" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Tlazoltepatl G.</field>
+        <field type="CharField" name="last_name">Yellowhorse</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">1</field>
+        <field type="DateField" name="date">2011-05-06</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman Recruit Tlazoltepatl G. Yellowhorse, daughter of Angelica S. Yellowhorse of Creswell, Ore., recently completed U.S. Navy basic training at Recruit Training Command, Great Lakes, Ill. 
+         During the eight-week program, Yellowhorse completed a variety of training which included classroom study and practical instruction on naval customs, first aid, firefighting, water safety and survival, and shipboard and aircraft safety. An emphasis was also placed on physical fitness. 
+         The capstone event of boot camp is "Battle Stations". This exercise gives recruits the skills and confidence they need to succeed in the fleet. "Battle Stations" is designed to galvanize the basic warrior attributes of sacrifice, dedication, teamwork and endurance in each recruit through the practical application of basic Navy skills and the core values of Honor, Courage and Commitment. Its distinctly ''Navy'' flavor was designed to take into account what it means to be a Sailor.          
+Yellowhorse is a 2009 graduate of Creswell High School of Creswell, Ore.</field>
+        <field type="DateTimeField" name="created_on">2011-05-06 10:28:52</field>
+    </object>
+    <object pk="35" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Duncan</field>
+        <field type="CharField" name="last_name">Brewer</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">4</field>
+        <field type="DateField" name="date">2011-03-14</field>
+        <field type="CharField" name="short_description">graduated from the U.S. Coast Guard Recruit Training Center</field>
+        <field type="TextField" name="long_description">Coast Guard Seaman Duncan Brewer, son of Deb J. Brewer of Bend, Ore. and Edward V. Brewer, of Pleasant Hill, Ore., recently graduated from the U.S. Coast Guard Recruit Training Center in Cape May, N. J. 
+ During the eight-week training program, Brewer completed a vigorous training curriculum consisting of academics and practical instruction on water safety and survival, military customs and courtesies, seamanship skills, physical fitness, health and wellness, first aid, fire fighting and marksmanship. Men and women train together from the first day in the Coast Guard just as they will work together aboard ships and shore units throughout the world. To reinforce the team concept, all recruits are trained in preventing sexual harassment, drug and alcohol awareness, civil rights training, and the basics of the work-life balance. 
+Brewer and other recruits also received instruction on the Coast Guard's Core Values -- Honor, Respect and Devotion to Duty -- and how to apply them in their military performance and personal conduct. Brewer will join 36, 000 other men and women who comprise the Coast Guard's workforce.  
+         
+Brewer is a 2004 graduate of Pleasant Hill High School of Pleasant Hill, Ore.</field>
+        <field type="DateTimeField" name="created_on">2011-03-21 11:34:20</field>
+    </object>
+    <object pk="34" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Kirsten A.</field>
+        <field type="CharField" name="last_name">Palahniuk</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">5</field>
+        <field type="DateField" name="date">2011-02-11</field>
+        <field type="CharField" name="short_description">reached the midway point of their regularly scheduled six month deployment</field>
+        <field type="TextField" name="long_description">Navy Airman Kirsten A. Palahniuk, daughter of Rick Palahniuk, of Pleasant Hill, Ore., alongside approximately 180 Sailors, recently reached the midway point of their regularly scheduled six month deployment attached to Carrier Airborne Early Warning Squadron 116 (VAW-116) stationed in Naval Air Weapons Station (NAWS), Point Mogu, Calif., while attached to USS Abraham Lincoln (CVN 72) in support of Operation Enduring Freedom. 
+VAW-116 flies the E-2C Hawkeye, an all-weather, carrier-based aircraft. The Hawkeye uses computerized radar, Identification Friend or Foe and electronic surveillance sensors to provide early warning, threat analysis against potentially hostile air and surface targets. 
+During this deployment VAW-116 made command history by landing a Hawkeye on a foreign warship for the first time. During dual carrier operations with the French aircraft carrier FS Charles de Gaulle (R91), VAW-116 made a few passes on the foreign carrier. 
+Palahniuk is a 2009 graduate of Thurston High School of Springfield, Ore. and joined the Navy in September 2009. 
+For more information on VAW-116, please visit www.vaw-116.navy.mil and www.navy.mil</field>
+        <field type="DateTimeField" name="created_on">2011-02-11 19:12:57</field>
+    </object>
+    <object pk="33" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Caleb D.</field>
+        <field type="CharField" name="last_name">Bergstrom</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">3</field>
+        <field type="DateField" name="date">2011-02-04</field>
+        <field type="CharField" name="short_description">received the Navy League Outstanding Recruit Award</field>
+        <field type="TextField" name="long_description">avy Seaman Apprentice Caleb D. Bergstrom, son of Evelyn M. Boyd of Iowa Park, Texas and Timothy J. Bergstrom, of Springfield, Ore., recently completed basic training at Recruit Training Command, Great Lakes, Ill, received the Navy League Outstanding Recruit Award, and was promoted to his current rank. 
+         This award is sponsored by the Navy League of the United States, and is given to a graduating recruit who has displayed the American spirit of honor, initiative and loyalty during his training period. 
+         During the training cycle, recruits are taught general military subjects designed to prepare them for further academic and on-the-job training in one of the Navy's 85 occupational fields. Studies also include seamanship, close-order-drill, naval history and first aid. 
+         Bergstrom is a 2008 graduate of Churchill High School of Eugene, Ore.
+</field>
+        <field type="DateTimeField" name="created_on">2011-02-07 16:50:21</field>
+    </object>
+    <object pk="32" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Maxwell R.</field>
+        <field type="CharField" name="last_name">Hughey</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">5</field>
+        <field type="DateField" name="date">2011-01-21</field>
+        <field type="CharField" name="short_description">completed Naval Nuclear Power Training Pipeline</field>
+        <field type="TextField" name="long_description">Navy Petty Officer 3rd Class Maxwell R. Hughey, son of Beth Gyde of Springfield, Ore. and Michael Hughey, of Eugene, Ore., recently completed Naval Nuclear Power Training Pipeline.
+
+During the course with Nuclear Power Training Unit, Ballston Spa, N. Y, Hughey received instruction about nuclear theory, chemistry, physics, reactor operations, safety and security. Upon completion of the course, Hughey qualified as a Naval nuclear operator.
+
+Hughey is a 2007 graduate of Thurston High School of Springfield, Ore. and joined the Navy in January 2009.</field>
+        <field type="DateTimeField" name="created_on">2011-01-21 18:35:08</field>
+    </object>
+    <object pk="31" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Daniel S.</field>
+        <field type="CharField" name="last_name">Brannon</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">9</field>
+        <field type="DateField" name="date">2011-01-14</field>
+        <field type="CharField" name="short_description">graduated from the U.S. Coast Guard Recruit Training Center</field>
+        <field type="TextField" name="long_description">Coast Guard Seaman Daniel S. Brannon, son of L. M. Brannon of Drain, Ore. and Dallas S. Brannon, of Cottage Grove, Ore., recently graduated from the U.S. Coast Guard Recruit Training Center in Cape May, N. J. 
+ During the eight-week training program, Brannon completed a vigorous training curriculum consisting of academics and practical instruction on water safety and survival, military customs and courtesies, seamanship skills, physical fitness, health and wellness, first aid, fire fighting and marksmanship. Men and women train together from the first day in the Coast Guard just as they will work together aboard ships and shore units throughout the world. To reinforce the team concept, all recruits are trained in preventing sexual harassment, drug and alcohol awareness, civil rights training, and the basics of the work-life balance.
+
+Brannon and other recruits also received instruction on the Coast Guard's Core Values -- Honor, Respect and Devotion to Duty -- and how to apply them in their military performance and personal conduct. Brannon will join 36, 000 other men and women who comprise the Coast Guard's workforce.  
+         
+Brannon is a 2001 graduate of North Douglas High School of Drain, Ore. </field>
+        <field type="DateTimeField" name="created_on">2011-01-19 17:33:29</field>
+    </object>
+    <object pk="30" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Caleb D.</field>
+        <field type="CharField" name="last_name">Bergstrom</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">3</field>
+        <field type="DateField" name="date">2010-12-21</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman Caleb D. Bergstrom, son of Evelyn M. Boyd of Iowa Park, Texas and Timothy J. Bergstrom, of Springfield, Ore., recently completed U.S. Navy basic training at Recruit Training Command, Great Lakes, Ill. 
+         During the eight-week program, Bergstrom completed a variety of training which included classroom study and practical instruction on naval customs, first aid, firefighting, water safety and survival, and shipboard and aircraft safety. An emphasis was also placed on physical fitness. 
+         The capstone event of boot camp is "Battle Stations". This exercise gives recruits the skills and confidence they need to succeed in the fleet. "Battle Stations" is designed to galvanize the basic warrior attributes of sacrifice, dedication, teamwork and endurance in each recruit through the practical application of basic Navy skills and the core values of Honor, Courage and Commitment. Its distinctly ''Navy'' flavor was designed to take into account what it means to be a Sailor.          
+Bergstrom is a 2008 graduate of Churchill High School of Eugene, Ore.</field>
+        <field type="DateTimeField" name="created_on">2010-12-21 10:24:19</field>
+    </object>
+    <object pk="29" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Matthew D.</field>
+        <field type="CharField" name="last_name">McLean</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">3</field>
+        <field type="DateField" name="date">2010-12-15</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman Apprentice Matthew D. McLean, son of Melissa K. and Thomas A. McLean of Eugene, Ore., recently completed U.S. Navy basic training at Recruit Training Command, Great Lakes, Ill. 
+         During the eight-week program, McLean completed a variety of training which included classroom study and practical instruction on naval customs, first aid, firefighting, water safety and survival, and shipboard and aircraft safety. An emphasis was also placed on physical fitness. 
+         The capstone event of boot camp is "Battle Stations". This exercise gives recruits the skills and confidence they need to succeed in the fleet. "Battle Stations" is designed to galvanize the basic warrior attributes of sacrifice, dedication, teamwork and endurance in each recruit through the practical application of basic Navy skills and the core values of Honor, Courage and Commitment. Its distinctly ''Navy'' flavor was designed to take into account what it means to be a Sailor.          
+McLean is a 2010 graduate of McLean Christian Academy of Eugene, Ore.</field>
+        <field type="DateTimeField" name="created_on">2010-12-17 13:05:32</field>
+    </object>
+    <object pk="28" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Tyler A.</field>
+        <field type="CharField" name="last_name">Graves</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">6</field>
+        <field type="DateField" name="date">2010-12-02</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman Apprentice Tyler A. Graves, daughter of Michelle K. Turner of Coos Bay, Ore. and Terrence L. Graves, of Eugene, Ore., recently completed U.S. Navy basic training at Recruit Training Command, Great Lakes, Ill. 
+         During the eight-week program, Graves completed a variety of training which included classroom study and practical instruction on naval customs, first aid, firefighting, water safety and survival, and shipboard and aircraft safety. An emphasis was also placed on physical fitness. 
+         The capstone event of boot camp is "Battle Stations". This exercise gives recruits the skills and confidence they need to succeed in the fleet. "Battle Stations" is designed to galvanize the basic warrior attributes of sacrifice, dedication, teamwork and endurance in each recruit through the practical application of basic Navy skills and the core values of Honor, Courage and Commitment. Its distinctly ''Navy'' flavor was designed to take into account what it means to be a Sailor.          
+Graves is a 2009 graduate of Marshfield High School of Coos Bay, Ore.</field>
+        <field type="DateTimeField" name="created_on">2010-12-08 09:49:57</field>
+    </object>
+    <object pk="27" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Alec X.</field>
+        <field type="CharField" name="last_name">Jazdzewski</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">3</field>
+        <field type="DateField" name="date">2010-10-28</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">         Navy Seaman Alec X. Jazdzewski, son of Stephen A. Jazdzewski, of Eugene, Ore., recently completed U.S. Navy basic training at Recruit Training Command, Great Lakes, Ill.
+         During the eight-week program, Jazdzewski completed a variety of training which included classroom study and practical instruction on naval customs, first aid, firefighting, water safety and survival, and shipboard and aircraft safety. An emphasis was also placed on physical fitness. 
+         The capstone event of boot camp is "Battle Stations". This exercise gives recruits the skills and confidence they need to succeed in the fleet. "Battle Stations" is designed to galvanize the basic warrior attributes of sacrifice, dedication, teamwork and endurance in each recruit through the practical application of basic Navy skills and the core values of Honor, Courage and Commitment. Its distinctly ''Navy'' flavor was designed to take into account what it means to be a Sailor.          
+Jazdzewski is a 2004 graduate of Willamette High School of Eugene, Ore. He is a 2006 graduate of Lane Community College, Eugene, Ore. with a AA degree.</field>
+        <field type="DateTimeField" name="created_on">2010-10-28 18:44:11</field>
+    </object>
+    <object pk="26" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Cory C.</field>
+        <field type="CharField" name="last_name">White</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">3</field>
+        <field type="DateField" name="date">2010-10-26</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman Recruit Cory C. White, son of Judith A. and Chris C. White of Eugene, Ore., recently completed U.S. Navy basic training at Recruit Training Command, Great Lakes, Ill. 
+         During the eight-week program, White completed a variety of training which included classroom study and practical instruction on naval customs, first aid, firefighting, water safety and survival, and shipboard and aircraft safety. An emphasis was also placed on physical fitness. 
+         The capstone event of boot camp is "Battle Stations". This exercise gives recruits the skills and confidence they need to succeed in the fleet. "Battle Stations" is designed to galvanize the basic warrior attributes of sacrifice, dedication, teamwork and endurance in each recruit through the practical application of basic Navy skills and the core values of Honor, Courage and Commitment. Its distinctly ''Navy'' flavor was designed to take into account what it means to be a Sailor.          
+White is a 2009 graduate of Willamette High School of Eugene, Ore.</field>
+        <field type="DateTimeField" name="created_on">2010-10-26 18:43:33</field>
+    </object>
+    <object pk="25" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Lori A.</field>
+        <field type="CharField" name="last_name">Fraser</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">8</field>
+        <field type="DateField" name="date">2010-10-07</field>
+        <field type="CharField" name="short_description">graduated from the U.S. Coast Guard Recruit Training Center</field>
+        <field type="TextField" name="long_description">Coast Guard Seaman Apprentice Lori A. Fraser, a 2009 graduate of Reedsport Senior High School, Reedsport, Ore., recently graduated from the U.S. Coast Guard Recruit Training Center in Cape May, N. J. 
+         During the eight-week training program, Fraser completed a vigorous training curriculum consisting of academics and practical instruction on water safety and survival, military customs and courtesies, seamanship skills, first aid, fire fighting and marksmanship. A major emphasis is also placed on physical fitness, health and wellness. 
+         Fraser and other recruits also received instruction on the Coast Guard's core values -- honor, respect and devotion to duty -- and how to apply them in their military performance and personal conduct. Fraser will join 36, 000 other men and women who comprise Coast Guard's force. 
+         Men and women train together from the first day in the Coast Guard just as they do aboard ships and shore units throughout the world. To reinforce the team concept, Fraser, and other recruits were trained in preventing sexual harassment, drug and alcohol awareness, civil rights training, and the basics of the work-life balance, as well as total quality management.</field>
+        <field type="DateTimeField" name="created_on">2010-10-12 19:19:23</field>
+    </object>
+    <object pk="24" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Kasey A.</field>
+        <field type="CharField" name="last_name">Ankeny</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">3</field>
+        <field type="DateField" name="date">2010-10-07</field>
+        <field type="CharField" name="short_description">graduated from the Marine Corps Basic Combat Engineer Course</field>
+        <field type="TextField" name="long_description">Marine Corps Pfc. Kasey A. Ankeny, son of Jill and Kevin Ankeny of Eugene, Ore., recently graduated from the Marine Corps Basic Combat Engineer Course at Marine Corps Engineer School, Marine Corps Base, Camp Lejeune, N. C. 
+         During the five-week course, Ankeny received instruction in the fundamentals of engineering support for combat units, including the procedures for building and repairing bridges, roads and field fortifications. Ankeny also received training on demolition concepts, land mine warfare and camouflage techniques. 
+         Ankeny is a 2008 graduate of Junction City High School of Junction City, Ore. and joined the Marine Corps Reserve in January 2010. </field>
+        <field type="DateTimeField" name="created_on">2010-10-07 18:27:17</field>
+    </object>
+    <object pk="22" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">James S.</field>
+        <field type="CharField" name="last_name">Pederson</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">5</field>
+        <field type="DateField" name="date">2010-09-17</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Airman Recruit James S. Pederson, son of Roxanne S. Wright of Springfield, Ore., recently completed U.S. Navy basic training at Recruit Training Command, Great Lakes, Ill. 
+         During the eight-week program, Pederson completed a variety of training which included classroom study and practical instruction on naval customs, first aid, firefighting, water safety and survival, and shipboard and aircraft safety. An emphasis was also placed on physical fitness. 
+         The capstone event of boot camp is "Battle Stations". This exercise gives recruits the skills and confidence they need to succeed in the fleet. "Battle Stations" is designed to galvanize the basic warrior attributes of sacrifice, dedication, teamwork and endurance in each recruit through the practical application of basic Navy skills and the core values of Honor, Courage and Commitment. Its distinctly ''Navy'' flavor was designed to take into account what it means to be a Sailor.          
+Pederson is a 2008 graduate of Chiloquin High School of Chiloquin, Ore. </field>
+        <field type="DateTimeField" name="created_on">2010-09-29 17:31:28</field>
+    </object>
+    <object pk="23" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Trevor C.</field>
+        <field type="CharField" name="last_name">Saye</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">5</field>
+        <field type="DateField" name="date">2010-09-17</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman Trevor C. Saye, son of Gary W. Saye, of Springfield, Ore., recently completed U.S. Navy basic training at Recruit Training Command, Great Lakes, Ill. 
+         During the eight-week program, Saye completed a variety of training which included classroom study and practical instruction on naval customs, first aid, firefighting, water safety and survival, and shipboard and aircraft safety. An emphasis was also placed on physical fitness. 
+         The capstone event of boot camp is "Battle Stations". This exercise gives recruits the skills and confidence they need to succeed in the fleet. "Battle Stations" is designed to galvanize the basic warrior attributes of sacrifice, dedication, teamwork and endurance in each recruit through the practical application of basic Navy skills and the core values of Honor, Courage and Commitment. Its distinctly ''Navy'' flavor was designed to take into account what it means to be a Sailor.          
+Saye is a 2004 graduate of Crescent Valley High School of Corvallis, Ore.</field>
+        <field type="DateTimeField" name="created_on">2010-09-29 17:32:55</field>
+    </object>
+    <object pk="21" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">S. V.</field>
+        <field type="CharField" name="last_name">Barckley</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">3</field>
+        <field type="DateField" name="date">2010-08-12</field>
+        <field type="CharField" name="short_description">graduated from the Marine Corps Basic Combat Engineer Course</field>
+        <field type="TextField" name="long_description">Marine Corps Sgt. S. V. Barckley, a 1994 graduate of North Eugene High School, Eugene, Ore., recently graduated from the Marine Corps Basic Combat Engineer Course at Marine Corps Engineer School, Marine Corps Base, Camp Lejeune, N. C. 
+         During the five-week course, Barckley received instruction in the fundamentals of engineering support for combat units, including the procedures for building and repairing bridges, roads and field fortifications. Barckley also received training on demolition concepts, land mine warfare and camouflage techniques. 
+         Barckley joined the Marine Corps Reserve in February 2010.</field>
+        <field type="DateTimeField" name="created_on">2010-08-25 16:39:53</field>
+    </object>
+    <object pk="20" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Jeffery A.</field>
+        <field type="CharField" name="last_name">Pittsenbarger</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">5</field>
+        <field type="DateField" name="date">2010-08-11</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman Recruit Jeffery A. Pittsenbarger, son of William A. Pittsenbarger, of Springfield, Ore., recently completed U.S. Navy basic training at Recruit Training Command, Great Lakes, Ill. 
+         During the eight-week program, Pittsenbarger completed a variety of training which included classroom study and practical instruction on naval customs, first aid, firefighting, water safety and survival, and shipboard and aircraft safety. An emphasis was also placed on physical fitness. 
+         The capstone event of boot camp is "Battle Stations". This exercise gives recruits the skills and confidence they need to succeed in the fleet. "Battle Stations" is designed to galvanize the basic warrior attributes of sacrifice, dedication, teamwork and endurance in each recruit through the practical application of basic Navy skills and the core values of Honor, Courage and Commitment. Its distinctly ''Navy'' flavor was designed to take into account what it means to be a Sailor.          
+Pittsenbarger is a 2008 graduate of Sutherlin High School of Sutherlin, Ore.</field>
+        <field type="DateTimeField" name="created_on">2010-08-25 16:37:59</field>
+    </object>
+    <object pk="19" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Robert J.</field>
+        <field type="CharField" name="last_name">McNeer</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">5</field>
+        <field type="DateField" name="date">2010-08-10</field>
+        <field type="CharField" name="short_description">graduated from the Marine Aviation Supply Mechanized Course</field>
+        <field type="TextField" name="long_description">Marine Corps Pfc. Robert J. McNeer, son of Randall T. McNeer, of Springfield, Ore., recently graduated from the Marine Aviation Supply Mechanized Course. 
+         During the course with Marine Aviation Training Support Squadron One, Marine Aviation Support Training Support Group 21, Meridian, Miss., students learn ordering, requisition, inventory and stock procedures to perform as supply clerks in Fleet Marine Force aviation units and air squadrons. 
+         McNeer joined the Marine Corps in January 2010.</field>
+        <field type="DateTimeField" name="created_on">2010-08-11 14:51:03</field>
+    </object>
+    <object pk="18" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Jake L.</field>
+        <field type="CharField" name="last_name">Graves</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">6</field>
+        <field type="DateField" name="date">2010-08-05</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman Recruit Jake L. Graves, son of Michelle K. Turner of Coos Bay, Ore. and Terrence L. Graves, of Springfield, Ore., recently completed U.S. Navy basic training at Recruit Training Command, Great Lakes, Ill. 
+         During the eight-week program, Graves completed a variety of training which included classroom study and practical instruction on naval customs, first aid, firefighting, water safety and survival, and shipboard and aircraft safety. An emphasis was also placed on physical fitness. 
+         The capstone event of boot camp is "Battle Stations". This exercise gives recruits the skills and confidence they need to succeed in the fleet. "Battle Stations" is designed to galvanize the basic warrior attributes of sacrifice, dedication, teamwork and endurance in each recruit through the practical application of basic Navy skills and the core values of Honor, Courage and Commitment. Its distinctly ''Navy'' flavor was designed to take into account what it means to be a Sailor.          
+Graves is a 2008 graduate of Marshfield High School of Coos Bay, Ore.</field>
+        <field type="DateTimeField" name="created_on">2010-08-06 13:04:39</field>
+    </object>
+    <object pk="16" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Steven</field>
+        <field type="CharField" name="last_name">Bahia</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">3</field>
+        <field type="DateField" name="date">2010-08-05</field>
+        <field type="CharField" name="short_description">completed the Marine Aviation Maintenance Administration Course</field>
+        <field type="TextField" name="long_description">Marine Corps Pfc. Steven Bahia, son of Isabel Ramirez of Eugene, Ore. and Balbir Bahia, of Phoenix, Ariz., recently completed the Marine Aviation Maintenance Administration Course. 
+         During the course with Marine Aviation Training Support Squadron One, Marine Aviation Support Training Support Group 21, Meridian, Miss., Bahia receive training on security of classified information, aeronautic technical publications and the Navy Airlift maintenance program. Studies also include training on aircraft accounting systems and procedures, aircraft log books and Navy correspondence and directive systems. 
+         Bahia is a 2009 graduate of Henry D. Sheldon High School of Eugene, Ore. and joined the Marine Corps in December 2009.</field>
+        <field type="DateTimeField" name="created_on">2010-08-06 13:01:44</field>
+    </object>
+    <object pk="17" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Nocona L.</field>
+        <field type="CharField" name="last_name">Lockard</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">5</field>
+        <field type="DateField" name="date">2010-08-05</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman Apprentice Nocona L. Lockard, daughter of Theresa J. Simpson of Junction City, Ore. and Clayton R. Lockard, of Creswell, Ore., recently completed U.S. Navy basic training at Recruit Training Command, Great Lakes, Ill. 
+         During the eight-week program, Lockard completed a variety of training which included classroom study and practical instruction on naval customs, first aid, firefighting, water safety and survival, and shipboard and aircraft safety. An emphasis was also placed on physical fitness. 
+         The capstone event of boot camp is "Battle Stations". This exercise gives recruits the skills and confidence they need to succeed in the fleet. "Battle Stations" is designed to galvanize the basic warrior attributes of sacrifice, dedication, teamwork and endurance in each recruit through the practical application of basic Navy skills and the core values of Honor, Courage and Commitment. Its distinctly ''Navy'' flavor was designed to take into account what it means to be a Sailor.          
+Lockard is a 2009 graduate of Thurston High School of Springfield, Ore.</field>
+        <field type="DateTimeField" name="created_on">2010-08-06 13:03:33</field>
+    </object>
+    <object pk="15" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Meghan L.</field>
+        <field type="CharField" name="last_name">Heineman</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">5</field>
+        <field type="DateField" name="date">2010-07-30</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman Apprentice Meghan L. Heineman, daughter of Sarita K. Inch-Carrino and stepdaughter of Andrew M. Carrino of Springfield, Ore., recently completed U.S. Navy basic training at Recruit Training Command, Great Lakes, Ill. 
+         During the eight-week program, Heineman completed a variety of training which included classroom study and practical instruction on naval customs, first aid, firefighting, water safety and survival, and shipboard and aircraft safety. An emphasis was also placed on physical fitness. 
+         The capstone event of boot camp is "Battle Stations". This exercise gives recruits the skills and confidence they need to succeed in the fleet. "Battle Stations" is designed to galvanize the basic warrior attributes of sacrifice, dedication, teamwork and endurance in each recruit through the practical application of basic Navy skills and the core values of Honor, Courage and Commitment. Its distinctly ''Navy'' flavor was designed to take into account what it means to be a Sailor.          
+Heineman is a 2008 graduate of Thurston High School of Springfield, Ore.
+</field>
+        <field type="DateTimeField" name="created_on">2010-08-03 13:14:01</field>
+    </object>
+    <object pk="13" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Samantha N.</field>
+        <field type="CharField" name="last_name">Billick</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">5</field>
+        <field type="DateField" name="date">2010-07-30</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman Recruit Samantha N. Billick, daughter of Tammy L. Shutts of Phoenix, Ariz. and Derek W. Billick, of Springfield, Ore., recently completed U.S. Navy basic training at Recruit Training Command, Great Lakes, Ill. 
+         During the eight-week program, Billick completed a variety of training which included classroom study and practical instruction on naval customs, first aid, firefighting, water safety and survival, and shipboard and aircraft safety. An emphasis was also placed on physical fitness. 
+         The capstone event of boot camp is "Battle Stations". This exercise gives recruits the skills and confidence they need to succeed in the fleet. "Battle Stations" is designed to galvanize the basic warrior attributes of sacrifice, dedication, teamwork and endurance in each recruit through the practical application of basic Navy skills and the core values of Honor, Courage and Commitment. Its distinctly ''Navy'' flavor was designed to take into account what it means to be a Sailor.          
+Billick is a 2009 graduate of Springfield High School of Springfield, Ore.
+</field>
+        <field type="DateTimeField" name="created_on">2010-08-03 13:11:42</field>
+    </object>
+    <object pk="14" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Evan M.</field>
+        <field type="CharField" name="last_name">Brown-Godfrey</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">3</field>
+        <field type="DateField" name="date">2010-07-27</field>
+        <field type="CharField" name="short_description">graduated from the Marine Corps Basic Combat Engineer Course</field>
+        <field type="TextField" name="long_description">Marine Corps Pvt. Evan M. Brown-Godfrey, son of Laurie Brown-Godfrey of Eugene, Ore. and Charles Godfrey, of Eugene, Ore., recently graduated from the Marine Corps Basic Combat Engineer Course at Marine Corps Engineer School, Marine Corps Base, Camp Lejeune, N. C. 
+         During the five-week course, Brown-Godfrey received instruction in the fundamentals of engineering support for combat units, including the procedures for building and repairing bridges, roads and field fortifications. Brown-Godfrey also received training on demolition concepts, land mine warfare and camouflage techniques. 
+         Brown-Godfrey is a 2005 graduate of Springfield High School of Springfield, Ore.
+</field>
+        <field type="DateTimeField" name="created_on">2010-08-03 13:12:48</field>
+    </object>
+    <object pk="12" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Joseph W.</field>
+        <field type="CharField" name="last_name">Day</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">2</field>
+        <field type="DateField" name="date">2010-07-14</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman Recruit Joseph W. Day, son of Catherine 
+E. Kerr of Junction City, Ore. and David L. Day of Klamath Falls, Ore., 
+recently completed U.S. Navy basic training at Recruit Training Command, 
+Great Lakes, Ill. with honors.
+         During the eight-week program, Day completed a variety of training which 
+included classroom study and practical instruction on naval customs, first 
+aid, firefighting, water safety and survival, and shipboard and aircraft 
+safety. An emphasis was also placed on physical fitness.
+         The capstone event of boot camp is "Battle Stations". This exercise 
+gives recruits the skills and confidence they need to succeed in the 
+fleet. "Battle Stations" is designed to galvanize the basic warrior 
+attributes of sacrifice, dedication, teamwork and endurance in each 
+recruit through the practical application of basic Navy skills and the 
+core values of Honor, Courage and Commitment. Its distinctly "Navy" flavor 
+was designed to take into account what it means to be a Sailor.
+         Day is a 2009 graduate of Mazama High School of Klamath Falls, Ore.</field>
+        <field type="DateTimeField" name="created_on">2010-07-14 12:13:45</field>
+    </object>
+    <object pk="1" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">DaShawna M.</field>
+        <field type="CharField" name="last_name">Johnson</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">1</field>
+        <field type="DateField" name="date">2010-06-16</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman DaShawna M. Johnson, a 2004 graduate of 
+Creswell High School, Creswell, Ore., recently completed U.S. Navy basic 
+training at Recruit Training Command, Great Lakes, Ill.
+         During the eight-week program, Johnson completed a variety of training 
+which included classroom study and practical instruction on naval customs, 
+first aid, firefighting, water safety and survival, and shipboard and 
+aircraft safety. An emphasis was also placed on physical fitness.
+         The capstone event of boot camp is "Battle Stations". This exercise 
+gives recruits the skills and confidence they need to succeed in the 
+fleet. "Battle Stations" is designed to galvanize the basic warrior 
+attributes of sacrifice, dedication, teamwork and endurance in each 
+recruit through the practical application of basic Navy skills and the 
+core values of Honor, Courage and Commitment. Its distinctly ''Navy'' 
+flavor was designed to take into account what it means to be a Sailor.</field>
+        <field type="DateTimeField" name="created_on">2010-07-07 16:58:47</field>
+    </object>
+    <object pk="2" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Jordan M.</field>
+        <field type="CharField" name="last_name">Lillie</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">2</field>
+        <field type="DateField" name="date">2010-06-14</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman Recruit Jordan M. Lillie, son of Lori B. 
+and Michael A. Lillie of Junction City, Ore., recently completed U.S. Navy 
+basic training at Recruit Training Command, Great Lakes, Ill.
+         During the eight-week program, Lillie completed a variety of training 
+which included classroom study and practical instruction on naval customs, 
+first aid, firefighting, water safety and survival, and shipboard and 
+aircraft safety. An emphasis was also placed on physical fitness.
+         The capstone event of boot camp is "Battle Stations". This exercise 
+gives recruits the skills and confidence they need to succeed in the 
+fleet. "Battle Stations" is designed to galvanize the basic warrior 
+attributes of sacrifice, dedication, teamwork and endurance in each 
+recruit through the practical application of basic Navy skills and the 
+core values of Honor, Courage and Commitment. Its distinctly ''Navy'' 
+flavor was designed to take into account what it means to be a Sailor.
+Lillie is a 2009 graduate of Junction City High School of Junction City, 
+Ore.</field>
+        <field type="DateTimeField" name="created_on">2010-07-07 16:59:45</field>
+    </object>
+    <object pk="3" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Bill S.</field>
+        <field type="CharField" name="last_name">Abendano</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">3</field>
+        <field type="DateField" name="date">2010-06-11</field>
+        <field type="CharField" name="short_description">completed  U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman Recruit Bill S. Abendano, son of 
+Cornelia A. and stepson of Donald E. Shamblin of Eugene, Ore., recently 
+completed U.S. Navy basic training at Recruit Training Command, Great 
+Lakes, Ill.
+         During the eight-week program, Abendano completed a variety of training 
+which included classroom study and practical instruction on naval customs, 
+first aid, firefighting, water safety and survival, and shipboard and 
+aircraft safety. An emphasis was also placed on physical fitness.
+         The capstone event of boot camp is "Battle Stations". This exercise 
+gives recruits the skills and confidence they need to succeed in the 
+fleet. "Battle Stations" is designed to galvanize the basic warrior 
+attributes of sacrifice, dedication, teamwork and endurance in each 
+recruit through the practical application of basic Navy skills and the 
+core values of Honor, Courage and Commitment. Its distinctly ''Navy'' 
+flavor was designed to take into account what it means to be a Sailor.
+Abendano is a 2009 graduate of Willamette High School of Eugene, Ore.</field>
+        <field type="DateTimeField" name="created_on">2010-07-07 17:00:35</field>
+    </object>
+    <object pk="4" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Michele R.</field>
+        <field type="CharField" name="last_name">Swartz</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">3</field>
+        <field type="DateField" name="date">2010-05-11</field>
+        <field type="CharField" name="short_description">completed  U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman Recruit Michele R. Swartz, daughter of 
+Marie E. and Mathew D. Swartz of Eugene, Ore., recently completed U.S. 
+Navy basic training at Recruit Training Command, Great Lakes, Ill.
+         During the eight-week program, Swartz completed a variety of training 
+which included classroom study and practical instruction on naval customs, 
+first aid, firefighting, water safety and survival, and shipboard and 
+aircraft safety. An emphasis was also placed on physical fitness.
+         The capstone event of boot camp is "Battle Stations". This exercise 
+gives recruits the skills and confidence they need to succeed in the 
+fleet. "Battle Stations" is designed to galvanize the basic warrior 
+attributes of sacrifice, dedication, teamwork and endurance in each 
+recruit through the practical application of basic Navy skills and the 
+core values of Honor, Courage and Commitment. Its distinctly ''Navy'' 
+flavor was designed to take into account what it means to be a Sailor.
+Swartz is a 2009 graduate of North Eugene High School of Eugene, Ore.</field>
+        <field type="DateTimeField" name="created_on">2010-07-07 17:01:18</field>
+    </object>
+    <object pk="5" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">William S.</field>
+        <field type="CharField" name="last_name">Worden</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">4</field>
+        <field type="DateField" name="date">2010-04-06</field>
+        <field type="CharField" name="short_description">returned from four-month deployment aboard USS Samuel B. Roberts</field>
+        <field type="TextField" name="long_description">Navy Petty Officer 2nd Class William S. Worden, a 
+2004 graduate of Pleasant Hill High School, Pleasant Hill, Ore., returned 
+home from a four month and two day deployment aboard the USS Samuel B. 
+Roberts (FFG 58) homeported in Mayport, Fla. March 15, 2010.
+The Roberts operated under the control of U.S. 6th Fleet and traveled up 
+and down the coast, visiting several nations along the way to provide 
+military-to-military training and community relations project support. The 
+Roberts was able to donate ten pallets of Project Handclasp hygiene and 
+recreation items to many children in the countries visited. All of these 
+endeavors were in support of Africa Partnership Station (APS) West.
+APS is an international initiative developed by Naval Forces Africa to 
+strengthen global maritime partnerships through training and other 
+collaborative activities in order to improve maritime safety and security 
+in the waters off the coast of West Africa. The three focus areas are 
+trafficking of drugs from South America thru Africa to destinations in 
+Europe, ensuring the efficient movement and security of natural resources 
+and anti-piracy.
+In addition, the crew was able to participate in the arduous and 
+time-honored naval tradition of crossing the equator and the prime 
+meridian at the same time and becoming shellbacks.
+Worden joined the Navy in September 2004.</field>
+        <field type="DateTimeField" name="created_on">2010-07-07 17:11:54</field>
+    </object>
+    <object pk="6" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Dustin D.</field>
+        <field type="CharField" name="last_name">Dye</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">5</field>
+        <field type="DateField" name="date">2010-03-03</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman Recruit Dustin D. Dye, a 2005 graduate 
+of Springfield Senior High School, Springfield, Ore., recently completed 
+U.S. Navy basic training at Recruit Training Command, Great Lakes, Ill.
+         During the eight-week program, Dye completed a variety of training which 
+included classroom study and practical instruction on naval customs, first 
+aid, firefighting, water safety and survival, and shipboard and aircraft 
+safety. An emphasis was also placed on physical fitness.
+         The capstone event of boot camp is "Battle Stations". This exercise 
+gives recruits the skills and confidence they need to succeed in the 
+fleet. "Battle Stations" is designed to galvanize the basic warrior 
+attributes of sacrifice, dedication, teamwork and endurance in each 
+recruit through the practical application of basic Navy skills and the 
+core values of Honor, Courage and Commitment. Its distinctly ''Navy'' 
+flavor was designed to take into account what it means to be a Sailor.</field>
+        <field type="DateTimeField" name="created_on">2010-07-07 17:13:00</field>
+    </object>
+    <object pk="7" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Terry Michael</field>
+        <field type="CharField" name="last_name">Barrett</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">3</field>
+        <field type="DateField" name="date">2010-02-12</field>
+        <field type="CharField" name="short_description">made dean's list at Creighton University</field>
+        <field type="TextField" name="long_description">LOCAL STUDENTS NAMED TO DEAN'S LIST AT CREIGHTON UNIVERSITY
+
+OMAHA, Neb.,-- The following students from your area were named to named to Creighton University’s  Dean's Honor Roll for the fall semester of the 2009-2010 academic year.
+Albany--Jocelyn E Frey 
+Beaverton--Kathleen Michelle McIntosh 
+Burns--Sarah Anne Fitzpatrick 
+Corvallis--Michelle Darlene Sherman 
+Eugene--Terry Michael Barrett 
+Grant s Pass--Michael A Agosta 
+Hermiston--Stephanie Erin Johnson
+Otis-- Corey Scott Buring 
+Portland--Nicole Tuong Vi Huynh, Cole Hoang Vu 
+West Linn--Hannah Beth Mooney 
+
+Full-time students who earn a 3.5 grade point average or better on a 4.0 scale are eligible for the Dean's Honor Roll.
+
+About Creighton University: Creighton University, a Catholic, Jesuit institution located in Omaha, Neb., enrolls more than 4,000 undergraduate and 2,900 professional school and graduate students. Nationally recognized for providing a balanced educational experience, the University offers a rigorous academic agenda  with a broad range of disciplines, providing undergraduate, graduate and professional degree programs that emphasize educating the whole person: academically, socially and spiritually. Creighton has been a top-ranked Midwestern university in the college edition of U.S. News &amp; World Report magazine’s for more than 20 years. For more information, visit our website at: www.creighton.edu	
+
+</field>
+        <field type="DateTimeField" name="created_on">2010-07-07 17:15:15</field>
+    </object>
+    <object pk="8" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Juan J.</field>
+        <field type="CharField" name="last_name">Gomez Verduzco</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">5</field>
+        <field type="DateField" name="date">2010-02-08</field>
+        <field type="CharField" name="short_description">completed U.S. Navy basic training</field>
+        <field type="TextField" name="long_description">Navy Seaman Juan J. Gomez Verduzco, son of 
+Martha Y. and Arnoldo Gomez of Springfield, Ore., recently completed U.S. 
+Navy basic training at Recruit Training Command, Great Lakes, Ill.
+         During the eight-week program, Gomez Verduzco completed a variety of 
+training which included classroom study and practical instruction on naval 
+customs, first aid, firefighting, water safety and survival, and shipboard 
+and aircraft safety. An emphasis was also placed on physical fitness.
+         The capstone event of boot camp is "Battle Stations". This exercise 
+gives recruits the skills and confidence they need to succeed in the 
+fleet. "Battle Stations" is designed to galvanize the basic warrior 
+attributes of sacrifice, dedication, teamwork and endurance in each 
+recruit through the practical application of basic Navy skills and the 
+core values of Honor, Courage and Commitment. Its distinctly ''Navy'' 
+flavor was designed to take into account what it means to be a Sailor.
+Gomez Verduzco is a 2009 graduate of Springfield High School of 
+Springfield, Ore.</field>
+        <field type="DateTimeField" name="created_on">2010-07-07 17:16:10</field>
+    </object>
+    <object pk="9" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Scott A.</field>
+        <field type="CharField" name="last_name">Edwards</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">1</field>
+        <field type="DateField" name="date">2010-01-15</field>
+        <field type="CharField" name="short_description">completed Marine Corps Basic Supply Course</field>
+        <field type="TextField" name="long_description">Marine Corps Pfc. Scott A. Edwards, son of  Deborah Edwards of Salinas, Calif. and Norman Edwards of Creswell, Ore., recently completed the Marine Corps Basic Supply Course.
+         During the course with Marine Corps Combat Service Support Schools 
+Training Command, Camp Lejeune, N. C, students learn to use supply 
+publications and catalogs, general accounting, and the basics of naval 
+correspondence.
+         Edwards is a 2005 graduate of Palma High School of Salinas, Calif. and 
+joined the Marine Corps in May 2009.</field>
+        <field type="DateTimeField" name="created_on">2010-07-07 17:17:28</field>
+    </object>
+    <object pk="11" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Brandon P.</field>
+        <field type="CharField" name="last_name">Gibbens</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">3</field>
+        <field type="DateField" name="date">2010-01-07</field>
+        <field type="CharField" name="short_description">awarded Marine Corps Good Conduct Medal</field>
+        <field type="TextField" name="long_description">Marine Corps Lance Cpl. Brandon P. Gibbens, son of Linda and Aaron Gibbens of Eugene, Ore., recently received the Marine Corps Good Conduct Medal.
+         The medal recognizes the service member's honest and faithful service 
+during a three-year period. To earn it, Gibbens achieved and maintained a 
+satisfactory level of performance and an unblemished conduct record for 
+the entire period.
+         Gibbens is currently assigned with Marine Wing Headquarters Squadron 
+One, 1st Marine Aircraft Wing, Okinawa, Japan.
+         Gibbens is a 2006 graduate of South Eugene High School of Eugene, Ore. 
+and joined the Marine Corps in September 2006.</field>
+        <field type="DateTimeField" name="created_on">2010-07-07 17:19:12</field>
+    </object>
+    <object pk="10" model="achievements.achievement">
+        <field type="CharField" name="first_name_middle">Blaze H.</field>
+        <field type="CharField" name="last_name">Wing</field>
+        <field to="achievements.town" name="town" rel="ManyToOneRel">5</field>
+        <field type="DateField" name="date">2010-01-07</field>
+        <field type="CharField" name="short_description">completed Basic Water Support Technician Course</field>
+        <field type="TextField" name="long_description">Marine Corps Reserve Pfc. Blaze H. Wing, a 2008  graduate of Gateways High School, Springfield, Ore., recently graduated from the Basic Water Support Technician Course while assigned as a student 
+at Marine Corps Engineer School, Camp Lejeune, N. C.
+         Wing and fellow students received instruction in subjects such as 
+maintenance management, plumbing, military water supply and field 
+sanitation. Upon completion of the course, graduates are qualified to 
+perform tasks expected of a basic water support technician.
+         Wing joined the Marine Corps Reserve in May 2009.</field>
+        <field type="DateTimeField" name="created_on">2010-07-07 17:18:21</field>
+    </object>
+</django-objects>
